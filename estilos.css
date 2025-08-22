@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: #F5F5F5;
+  color: #333;
+}
+
+.hero {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn-principal {
+  background-color: white;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.servicios, .contacto {
+  padding: 40px 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.servicios ul {
+  list-style: none;
+  padding: 0;
+}
+
+.servicios li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
