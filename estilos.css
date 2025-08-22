@@ -1,65 +1,79 @@
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  background: #f4f4f4;
   color: #333;
 }
 
-.hero {
-  background-color: #007BFF;
+header {
+  background: #2c3e50;
   color: white;
   text-align: center;
-  padding: 60px 20px;
-}
-
-.btn-principal {
-  background-color: white;
-  color: #007BFF;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+  padding: 2rem 1rem;
 }
 
 .servicios, .contacto {
-  padding: 40px 20px;
-  background-color: white;
-  margin: 20px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
 }
 
-.servicios ul {
-  list-style: none;
-  padding: 0;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.servicios li {
-  padding: 10px 0;
-  font-size: 18px;
+.card img {
+  width: 100px;
+  margin-bottom: 1rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-input, textarea, button {
-  padding: 10px;
+input, textarea {
+  padding: 0.8rem;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
 button {
-  background-color: #007BFF;
+  background: #3498db;
   color: white;
   border: none;
+  padding: 0.8rem;
+  border-radius: 5px;
   cursor: pointer;
 }
 
+button:hover {
+  background: #2980b9;
+}
+
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
+  background: #2c3e50;
   color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
